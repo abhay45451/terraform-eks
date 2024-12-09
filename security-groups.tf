@@ -13,7 +13,7 @@ resource "aws_security_group_rule" "all_worker_mgmt_ingress" {
   type              = "ingress"
   cidr_blocks = [
     "10.0.0.0/8",
-    "0.0.0.0/0"
+    "0.0.0.0/0",
     "172.16.0.0/12",
     "192.168.0.0/16",
   ]
